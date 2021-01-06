@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif; margin: 0; padding: 0;
+}
+.tob-banner{
+    height: 500px; padding: 10px; 
+}
+.half-width{
+    width: 40%; float: left; margin-left: 2%; padding-left: 5%;
+}
+.half-width img{
+    width: 90%; cursor: cell;
+}
+.orange-heightlight{
+    color: orange;
+}
+h1{
+    font-size: 35px; line-height: 1; 
+}
+p{
+    color: dimgray;
+}
+.link-button{
+    text-decoration: none; background-image: linear-gradient(50deg,orange,tomato); 
+    padding:12px 10px; color: #FFF; border-radius: 6px; box-shadow: 3px 3px 3px gray;
+}
+.about{
+    padding: 10px; height: 500px;
+}
+.projects{
+    height: 500px; text-align: center; background:#f7f1e3; padding: 30px 5px;
+}
+.projects h1{
+    text-shadow: 3px 3px 3px gray;
+}
+.sinlge-project{
+    width: 25%; float: left; padding: 30px 20px; margin: 2%;
+    box-shadow: 5px 5px 5px gray, -1px -1px 2px gray; border-radius: 5px;;
+}
+.sinlge-project img{
+    width: 90%; cursor: move;
+}
+.work-enqury-section{
+    text-align: center; padding: 40px 10px;
+}
+.work{
+    position: relative; 
+}
+.text{
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+.works img{
+   width: 50%;
+}
+.contact-form-section{
+    padding: 40px 5px; background: #d8b574a2; overflow: hidden;
+}
+.get-in-touch{
+    text-align:center; cursor: help;
+}
+.form-photo{
+    width: 45%; float: left;
+}
+.form-photo img{
+    width: 90%; border-radius: 300px 20px 250px; padding-left: 50px;
+}
+.form{
+    width: 45%; float: right;
+}
+.form input{
+    padding:10px 5px; margin-bottom: 10px; width: 350px; display: block
+}
+.form textarea{
+    width: 350px; padding:20px 4px;
+}
+.form input[type="submit"]{
+    width: 70px; margin-left: 150px; padding: 15px68px; border:none; color: white;
+     background-image: linear-gradient(70deg,orange,tomato,orange);
+     border-radius: 6px; font-size: 17px; box-shadow: 3px 3px 3px gray;
+}
+footer{
+    background: #d8b574a2; padding: 20px 10px;
+}
+footer p{
+    font-size: 12px; text-align: center; color: black;
+}
