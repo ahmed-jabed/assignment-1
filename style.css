@@ -15,7 +15,7 @@ body{
     color: orange;
 }
 h1{
-    font-size: 35px; line-height: 1; 
+    font-size: 35px; line-height: 1; text-shadow: 3px 3px 3px gray;
 }
 p{
     color: dimgray;
@@ -56,7 +56,7 @@ p{
     padding: 40px 5px; background: #d8b574a2; overflow: hidden;
 }
 .get-in-touch{
-    text-align:center; cursor: help;
+    text-align:center; cursor: help; text-shadow: 3px 3px 3px gray;
 }
 .form-photo{
     width: 45%; float: left;
